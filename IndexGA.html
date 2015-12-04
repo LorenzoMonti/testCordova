@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Algoritmi in Javascript</title>
+            <script src = "GlobalData.js"></script>
+            <script src = "loadGA.js"></script>
+			<script src="phonegap.js"></script>
+
+	</head>
+	<body>
+		<h2>Assegnamento generalizzato</h2>
+		<!--<input id="inputTag" type ="text" />-->
+		<table>
+		  <tr>
+			<th>
+					<button style="color: red; width: 160px;" onclick="readGeneralAssignment()"> readJSON-GAP </button><br>
+			</th>
+		  </tr>
+		  <tr>
+			<th>
+			        <button style="color: yellow; width: 160px;"onclick="doGAPCostruttiva()"> doGAP </button><br>
+			</th>
+		  </tr>
+		  <tr>
+			<th>
+					<button style="color: blue; width: 160px;"onclick="doOpt10()"> opt10 </button><br>
+			</th>
+		  </tr>
+		  <tr>
+			<th>
+					<button style="color: green; width: 160px;"onclick="doAnn()"> Anneling </button><br>
+			</th>
+		  </tr>
+		   <tr>
+			<th>
+					<button style="color: fuchsia; width: 160px;"onclick="doTabuSearch()"> Tabu Search </button><br>
+			</th>
+		  </tr>
+		  <th>
+					<button style="color: orange; width: 160px;"onclick="doILS()"> Iterated Local Search </button><br>
+			</th>
+		  </tr>
+		  <th>
+					<button style="color: gray; width: 160px;"onclick="doVNS()"> Variable Neighborhood Search </button><br>
+			</th>
+		  </tr>
+		  <th>
+					<button style="color: black; width: 160px;"onclick="GRASP(10000,3)"> GRASP </button><br>
+			</th>
+		  </tr>
+		</table>
+		
+		<output id="outputTag"></output>
+	</body>
+	<script application:Javascript>
+        var outputText = document.getElementById("outputTag");
+	</script>
+    <script src = "algoritmi.js"></script> 
+</html>
