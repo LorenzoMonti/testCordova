@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "it.unibo.myTestCordova"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Esempietto 2015</name>
+
+    <description>
+        Esempietto 2015, GAP. 
+    </description>
+
+    <author href="" email="lorenzo.monti5@studio.unibo.it">
+        Lorenzo Monti
+    </author>
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+   <preference name="phonegap-version" value="cli-5.2.0" />
+   <preference name="permissions" value="ID_CAP_SENSORS"/>
+   <preference name="permissions" value="ID_CAP_LOCATION"/>
+   <preference name="permissions" value="ID_CAP_NETWORKING"/>
+   <preference name="permissions" value="ID_CAP_WEBBROWSERCOMPONENT"/>
+</widget>
