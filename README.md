@@ -1,1 +1,1 @@
-test metaheuristic algorithms with Cordova App
+test metaheuristic algorithms with Cordova platform
